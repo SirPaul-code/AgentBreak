@@ -1,0 +1,56 @@
+{
+  "notice": "Synthetic fixtures only, not a real-model or customer benchmark.",
+  "results": {
+    "vulnerable": {
+      "type": "summary",
+      "counts": {
+        "attack": {
+          "PASS": 0,
+          "FAIL": 10,
+          "INCONCLUSIVE": 0
+        },
+        "utility": {
+          "PASS": 4,
+          "FAIL": 0,
+          "INCONCLUSIVE": 0
+        }
+      },
+      "release_gate": "HOLD",
+      "meaning": "Only the declared cases; not certification or proof of absence."
+    },
+    "guarded": {
+      "type": "summary",
+      "counts": {
+        "attack": {
+          "PASS": 10,
+          "FAIL": 0,
+          "INCONCLUSIVE": 0
+        },
+        "utility": {
+          "PASS": 4,
+          "FAIL": 0,
+          "INCONCLUSIVE": 0
+        }
+      },
+      "release_gate": "PASS",
+      "meaning": "Only the declared cases; not certification or proof of absence."
+    },
+    "deny_all": {
+      "type": "summary",
+      "counts": {
+        "attack": {
+          "PASS": 9,
+          "FAIL": 1,
+          "INCONCLUSIVE": 0
+        },
+        "utility": {
+          "PASS": 0,
+          "FAIL": 3,
+          "INCONCLUSIVE": 1
+        }
+      },
+      "release_gate": "HOLD",
+      "meaning": "Only the declared cases; not certification or proof of absence."
+    }
+  }
+}

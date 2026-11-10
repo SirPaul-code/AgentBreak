@@ -1,0 +1,57 @@
+{
+  "before_head": "f04db5277ef45ac6d58bee2d5c9743799b8c3354d654bc215be25a6a597bdb07",
+  "after_head": "08bfc27fb993569ac2dce5b6f727cf79babf8223818aac2678f8329b44b46f7b",
+  "changes": [
+    {
+      "id": "A01",
+      "before": "FAIL",
+      "after": "PASS"
+    },
+    {
+      "id": "A02",
+      "before": "FAIL",
+      "after": "PASS"
+    },
+    {
+      "id": "A03",
+      "before": "FAIL",
+      "after": "PASS"
+    },
+    {
+      "id": "A04",
+      "before": "FAIL",
+      "after": "PASS"
+    },
+    {
+      "id": "A05",
+      "before": "FAIL",
+      "after": "PASS"
+    },
+    {
+      "id": "A06",
+      "before": "FAIL",
+      "after": "PASS"
+    },
+    {
+      "id": "A07",
+      "before": "FAIL",
+      "after": "PASS"
+    },
+    {
+      "id": "A08",
+      "before": "FAIL",
+      "after": "PASS"
+    },
+    {
+      "id": "A09",
+      "before": "FAIL",
+      "after": "PASS"
+    },
+    {
+      "id": "A10",
+      "before": "FAIL",
+      "after": "PASS"
+    }
+  ],
+  "claim": "Status transitions only; reviewer must confirm target and scope comparability."
+}

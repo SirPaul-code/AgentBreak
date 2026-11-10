@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentbreak-evidence-lab"
+version = "0.1.0"
+description = "Synthetic boundary controls and deterministic MCP evidence; working name"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+agentbreak-lab = "agentbreak.__main__:main"
+agentbreak-lab-mcp = "agentbreak.mcp:main"
+
+[tool.setuptools.packages.find]
+include = ["agentbreak*"]
